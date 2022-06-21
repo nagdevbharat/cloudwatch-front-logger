@@ -48,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mpyw/cloudwatch-front-logger.git"
+    "url": "git+https://github.com/nagdevbharat/cloudwatch-front-logger.git"
   },
-  "author": "mpyw",
+  "author": "nagdevbharat",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mpyw/cloudwatch-front-logger/issues"
+    "url": "https://github.com/nagdevbharat/cloudwatch-front-logger/issues"
   },
-  "homepage": "https://github.com/mpyw/cloudwatch-front-logger#readme"
+  "homepage": "https://github.com/nagdevbharat/cloudwatch-front-logger#readme"
 }
