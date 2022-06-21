@@ -136,7 +136,7 @@ export default class Logger {
       originalConsole[level] = globalConsole[level].bind(globalConsole);
       globalConsole[level] = async (message, ...args): Promise<void> => {
         // Listen overridden console.*() function calls (type="console", level="*")
-        await this.onError(new Error(message), { type: 'console', level });
+        await this.onError(new Error(message), { type: 'console', level, ngMessageArray: args });
         if (!this.muting) {
           originalConsole[level](message, ...args);
         }
