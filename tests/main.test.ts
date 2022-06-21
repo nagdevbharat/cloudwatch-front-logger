@@ -72,6 +72,7 @@ describe('Collecting errors', (): void => {
           message: 'Error: Something went wrong',
           type: 'console',
           level: 'error',
+          ngMessageArray: []
         }),
         timestamp: 0,
       },
